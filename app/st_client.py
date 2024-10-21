@@ -14,6 +14,12 @@ if openai_api_key == None:
             "OpenAI API Key", key="langchain_search_api_key_openai", type="password"
         )
         "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+with st.sidebar:
+    st.markdown("---")
+    st.markdown(
+        '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://www.linkedin.com/iamdgarcia">@iamdgarcia</a></h6>',
+        unsafe_allow_html=True,
+    )
 
 
 # copies 
