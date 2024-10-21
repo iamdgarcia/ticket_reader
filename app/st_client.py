@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-from app.chain import run_llm
+from chain import run_llm
 import os
 from dotenv import load_dotenv
 
