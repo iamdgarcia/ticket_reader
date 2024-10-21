@@ -17,10 +17,13 @@ if openai_api_key == None:
 with st.sidebar:
     st.markdown("---")
     st.markdown(
-        '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://www.linkedin.com/iamdgarcia">@iamdgarcia</a></h6>',
+        '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://www.linkedin.com/in/iamdgarcia">@iamdgarcia</a></h6>',
         unsafe_allow_html=True,
     )
-
+    st.markdown(
+        '<div style="margin-top: 0.75em;"><h6>Follow on &nbsp<a href="https://medium.com/@iamdgarcia" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/medium.svg" alt="Medium profile" height="41" width="174"></a></h6></div>',
+        unsafe_allow_html=True,
+    )
 
 # copies 
 home_title = "Ticket Reader"
