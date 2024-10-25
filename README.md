@@ -1,6 +1,8 @@
 ## Ticket Reader App with Streamlit
 
+![Streamlit Logo](https://streamlit.io/images/brand/streamlit-mark-color.png)
 
+![Link to app](https://ticketreader.streamlit.app/)
 #### Description
 + A NLP app built with streamlit framework for ticket data extraction using openai api.
 
